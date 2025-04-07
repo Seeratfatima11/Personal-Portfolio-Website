@@ -404,6 +404,13 @@ main{
     color: var(--dark-color);
     font-size: 17px;
 }
+.feature-box .img{
+    max-width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid #373737;
+} 
 .feature-box-small{
     padding: 15px;
     align-items: center;
