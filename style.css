@@ -62,10 +62,12 @@ a:hover{
     background: var(--primary-color);
     transition: ease all 0.3s;
 }
-.main-header .navbar-nav > li .nav-link:hover{
+.main-header .navbar-nav > li .nav-link:hover, 
+.main-header .navbar-nav > li > .nav-link.active{
     color: var(--primary-color);
 }
-.main-header .navbar-nav > li .nav-link:hover:after{
+.main-header .navbar-nav > li .nav-link:hover:after,
+.main-header .navbar-nav > li > .nav-link.active:after{
     left: 0;
     right: auto;
     width: 100%;
@@ -513,7 +515,6 @@ main{
     display: flex;
     position: relative;
     padding-bottom: 35px;
-    margin-left: 15px;
 }
  
 .contact-infos li:last-child{
@@ -543,5 +544,23 @@ main{
     font-size: 20px;
     color: #fff;
     font-weight: 500;
+}
+/* Footer */
+.footer{
+    background-color: var(--dark-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255, 0.75);
+}
+.footer .nav a{
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.75);  
+}
+.footer .nav a:hover{
+    color: var(--primary-color);
+}
+.footer .nav a + a{
+    margin-left: 18px;
 }
 

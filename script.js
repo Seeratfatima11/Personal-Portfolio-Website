@@ -33,4 +33,9 @@ $(document).ready(function() {
             }
         }
     });
+    // One page Scroll
+    $.scrollIt({
+        easing: 'linear',      // the easing function for animation
+        topOffset: -70           // offste (in px) for fixed top navigation
+      });
 });
