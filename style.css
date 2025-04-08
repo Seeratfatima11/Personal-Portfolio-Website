@@ -464,6 +464,84 @@ main{
 .portfolio-box .portfolio-text .colored-btn{
     font-size: 12px;
 }
+.owl-dots {
+    text-align: center;
+}
+.owl-dots .owl-dot{
+    display: inline-block;
+    vertical-align: top;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 1px solid var(--dark-color);
+    transition: ease all 0.55s;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+.owl-dots .owl-dot.active{
+    background: var(--dark-color);
+}
 
+/* Contact Section */
+.contact-form{
+    border: 2px solid var(--dark-color);
+    padding: 35px;
+    background: #fff;
+}
+@media (max-width: 767px) {
+     .contact-form  {
+        padding: 25px;
+     } 
+}
+.contact-form{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 30px;
+}
+.contact-form .form-control{
+     border-radius: 0;
+     border: 1px solid var(--dark-color);
+     box-shadow: none;
+     padding: 0.575rem .75rem;
+}
+.contact-infos{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contact-infos li{
+    display: flex;
+    position: relative;
+    padding-bottom: 35px;
+    margin-left: 15px;
+}
+ 
+.contact-infos li:last-child{
+    padding-bottom: 0;
+}
+.contact-infos .icon{
+    width: 55px;
+    height: 55px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-color);
+    font-size: 25px;
 
+}
+
+.contact-infos h5{
+    font-size: 14px;
+    margin: 0 0 5px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.contact-infos p{
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
 
